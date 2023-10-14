@@ -77,7 +77,7 @@ Please note that the latest version has a slightly different hierarchical struct
 Please use these two Juypter Notebooks to preprocess the TUSZ data (v1.5.2):
 - **new_preprocess_TUSZ_data_preparation.ipynb** This file fulfills all steps described in the data preprocessing steps. This file is only valid for v1.5.2.
     - Please note that this file **new_preprocess_TUSZ_data_preparation.ipynb** utilizes functions implemented in **data_reader_new.py**. It is only applicable to v1.5.2. 
-    - If you wish to try our code with the latest version (v2.0.0), please use this jupyter notebook **new_preprocess_TUSZ_2023_data_preparation.ipynb**, which imports functions from file **data_reader_2023.py**. Please carefully debug if there is any error.
+    - If you wish to try our code with the latest version (v2.0.0), please use this jupyter notebook **new_preprocess_TUSZ_2023_data_preparation.ipynb**, which imports functions from file **data_reader_2023.py**. Please carefully debug if there is any error. In v2.0.0, channel-level annotations are available.
 - **copy_balanced_samples.ipynb** This file is only to undersample the major class samples so that we will have the equal number of samples across different classes.
 
 
@@ -155,4 +155,4 @@ These papers include:
 
 If you find this work useful in your research, please use the following BibTeX entry for citation:
 
-    TBD
+    @inproceedings{Zhu23Automated, AUTHOR = {Yuanda Zhu and May Dongmei Wang}, TITLE = {Automated Seizure Detection using Transformer Models on {Multi-Channel}{EEGs}}, BOOKTITLE = {2023 IEEE EMBS International Conference on Biomedical and Health Informatics (BHI) (IEEE BHI 2023)}, ADDRESS = {Pittsburgh, USA}, PAGES = {21}, DAYS = {15}, MONTH = {October}, YEAR = {2023},}
