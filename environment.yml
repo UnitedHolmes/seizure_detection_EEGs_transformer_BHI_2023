@@ -1,0 +1,21 @@
+name: myEEGs
+channels:  
+  - conda-forge
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.8
+  - jupyter
+  - jupyterlab
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pip
+  - pip:
+    - torchinfo
+    - mne
